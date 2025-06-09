@@ -1,0 +1,22 @@
+/* 全局导航响应式样式 */
+@media (max-width: 640px) {
+  .global-nav-floating {
+    bottom: 1rem;
+    top: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* 触摸优化 */
+@media (hover: none) {
+  .global-nav-button {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
